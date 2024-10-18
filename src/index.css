@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styling for PhoneInput */
+.phone-input-container {
+  width: 100% !important; /* Ensures the container takes up full width */
+}
+
+.country-dropdown {
+  border-right: 1px solid #ccc !important; /* Adds a border between the dropdown and the input */
+  background-color: #f9f9f9 !important; /* Customize dropdown background */
+}
+
+.phone-input-container input {
+  padding-left: 50px !important; /* Adjust padding for the input field (to avoid overlap with flag) */
+}
+
+.phone-input-container .flag-dropdown {
+  background-color: white !important;
+  border: 1px solid #ccc !important;
+  border-radius: 5px 0 0 5px !important;
+}
+
+.phone-input-container .flag-dropdown:hover {
+  background-color: #e2e8f0 !important; /* Hover effect for dropdown button */
+}
